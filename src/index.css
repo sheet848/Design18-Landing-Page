@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: NURegular, sans-serif;
+
+  background: #F0F0F0;
+  color: #000;
+}
+
+@font-face {
+  font-family: "NULight";
+  src: local("NeueMachina-Light"),
+        url("./font/NeueMachina-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NURegular";
+  src: local("NeueMachina-Regular"),
+        url("./font/NeueMachina-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NUUltrabold";
+  src: local("NeueMachina-Ultrabold"),
+        url("./font/NeueMachina-Ultrabold.otf") format("opentype");
+}
