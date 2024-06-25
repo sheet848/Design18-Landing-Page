@@ -4,10 +4,10 @@ import icon3 from '../assets/icon-3.svg';
 import icon4 from '../assets/icon-4.svg';
 
 export const navItems = [
-  { label: "About Us", href: "#" },
-  { label: "How it works", href: "#"},
-  { label: "Pricing", href: "#" },
-  { label: "FAQs", href: "#" },
+  { label: "About Us", href: "#about-us" },
+  { label: "How it works", href: "#how-it-works"},
+  { label: "Pricing", href: "#pricing" },
+  { label: "FAQs", href: "#faqs" },
 ];
 
 export const aboutList = [

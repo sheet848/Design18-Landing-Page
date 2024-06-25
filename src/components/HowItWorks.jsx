@@ -7,7 +7,7 @@ const HowItWorks = () => {
     <>
     <div className='how-works px-4 pb-14 md:grid md:grid-cols-2'>
         <div className="section-1 md:w-[30rem] lg:w-[45rem]">
-            <div className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">How it works</div>
+            <div id='how-it-works' className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">How it works</div>
             <h2 className='text-4xl pt-7 pr-3 lg:text-6xl'>Building the best space for collaboration.</h2>
         </div>
         <div className="section-2 md:ml-12">
