@@ -14,17 +14,17 @@ const Pricing = () => {
         <div className="section-2 md:order-1">
             <img src={art4} alt="girl-hugging-the-globe" />
         </div>
-        <div className="pricing-blocks">
+        <div className="pricing-blocks md:order-3 col-span-2 lg:flex lg:gap-x-3">
     { priceOptions.map((item, index) => (
-        <div key={index} className='price-block border-2 border-black my-5'>
-        <p>{item.price}<span>per month</span></p>
-        <p>{item.offer}</p>
-        <ul>
-        { /*{ priceOptions.features.map((bullet, index) => (
-            <li key={index}><span>{bullet}</span></li>
-        ))} */}
+        <div key={index} className='price-block border-2 border-black my-5 px-4 py-12 h-[640px] relative lg:w-full'>
+        <p className='text-xl font-extrabold'><sup>$</sup><span className='text-7xl'>{item.price}</span><span className='text-xl'>per month</span></p>
+        <p className='py-3 text-xl pr-20'>{item.offer}</p>
+        <ul className='px-6 flex flex-col gap-7 pt-10'>
+        { item.features.map((bullet, index) => (
+            <li key={index} className='list-[square] text-lg'><span>{bullet}</span></li>
+        ))}
         </ul>
-        <button>Join</button>
+        <button className='w-[90%] md:w-[96%] bg-black text-white absolute py-3 text-xl bottom-10 lg:w-[90%]'>Join</button>
         </div>
     ))}
     </div>
