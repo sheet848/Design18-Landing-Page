@@ -43,33 +43,37 @@ export const works = [
 
 export const priceOptions = [
   {
-    price: "$10",
-    offer: "One time offer",
+    id: "1",
+    price: "49",
+    offer: "A pay-once license, just for you",
     features: [
-      "Private",
-      "Lets see",
-      "We get it",
-      "YooHoo",
+      "The Mac app",
+      "Beautiful White_level",
+      "One year of saving",
     ],
   },
   {
-    price: "$10",
-    offer: "One time offer",
+    id: "2",
+    price: "99",
+    offer: "Pro account, just for you",
     features: [
-      "Private",
-      "Lets see",
-      "We get it",
-      "YooHoo",
+      "The Mac app",
+      "One year of Mac app",
+      "One year of saving",
+      "A personal Cloud",
+      "All tools, just for you",
     ],
   },
   {
-    price: "$10",
-    offer: "One time offer",
+    id: "3",
+    price: "299",
+    offer: "A subscription for the whole team",
     features: [
-      "Private",
-      "Lets see",
-      "We get it",
-      "YooHoo",
+      "Acces to the Mac app",
+      "Cloud workspace",
+      "Free Cloud access",
+      "Easy team management",
+      "No license key required",
     ],
   },
 ];
@@ -77,18 +81,28 @@ export const priceOptions = [
 export const faqAccordion = [
   {
     id: "1",
-    title: "Hello",
-    description: "Nice to meet you",
+    title: "How much does a Team subscription cost?",
+    description: "Contributors are members of your team who need access to use the Mac app to create and edit Sketch docuemnts. These prices don't include sales tax, which may still apply. Head over to our pricing page to get full details.",
   },
   {
-    id: "1",
-    title: "Hello",
-    description: "Nice to meet you",
+    id: "2",
+    title: "Do I need to purchase licenses for the Mac App?",
+    description: "Contributors are members of your team who need access to use the Mac app to create and edit Sketch docuemnts. These prices don't include sales tax, which may still apply. Head over to our pricing page to get full details.",
   },
   {
-    id: "1",
-    title: "Hello",
-    description: "Nice to meet you",
+    id: "3",
+    title: "What are the differences between Contributors and Viewers?",
+    description: "Contributors are members of your team who need access to use the Mac app to create and edit Sketch docuemnts. These prices don't include sales tax, which may still apply. Head over to our pricing page to get full details.",
+  },
+  {
+    id: "4",
+    title: "How long does the free Teams subscription last?",
+    description: "Contributors are members of your team who need access to use the Mac app to create and edit Sketch docuemnts. These prices don't include sales tax, which may still apply. Head over to our pricing page to get full details.",
+  },
+  {
+    id: "5",
+    title: "Will program for Teams replace volume licensing?",
+    description: "Contributors are members of your team who need access to use the Mac app to create and edit Sketch docuemnts. These prices don't include sales tax, which may still apply. Head over to our pricing page to get full details.",
   },
 ];
 
