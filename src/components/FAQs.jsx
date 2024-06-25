@@ -24,7 +24,7 @@ const FAQs = () => {
         <div className="accordion-group lg:-mt-32">
         {faqAccordion.map((acc, index) => (
           <div className="accordion border-b-2 border-black">
-            <div className="title text-xl font-extrabold py-3" onClick={() => handleSelected(index)}>{acc.title}
+            <div className="title text-xl font-extrabold py-3 md:text-lg" onClick={() => handleSelected(index)}>{acc.title}
               {
                 (selected === index) ? (
                   <span className='float-right rotate-45'>+</span>)
