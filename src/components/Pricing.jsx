@@ -5,9 +5,9 @@ import { priceOptions } from '../constant';
 const Pricing = () => {
   return (
     <>
-    <div className="about-us px-4 py-14 md:grid md:grid-cols-2">
+    <div className="about-us px-4 py-14 md:grid md:grid-cols-2 w-full mx-auto max-w-[1024px]">
         <div className="section-1 md:order-2">
-            <div className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">Pricing</div>
+            <div id='pricing' className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">Pricing</div>
             <h2 className='text-4xl pt-7 lg:text-6xl'>Select a membership level the right price for you.</h2>
             <p className='pt-5 pb-7'>Price listed in USD. Taxes may apply. By using program you agree to our terms and policies.</p>
         </div>

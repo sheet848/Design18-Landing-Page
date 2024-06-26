@@ -12,10 +12,12 @@ const NavBar = () => {
 
   return (
     <>
-        <header>
+        <header className='w-full mx-auto max-w-[1024px]'>
             <nav className="navbar flex items-center justify-between px-4 h-24">
             <div className="logo pr-8">
-                <img src={logo} alt='site-logo'/>
+                <a href="/">
+                    <img src={logo} alt='site-logo'/>
+                </a>
             </div>
 
             {/* desktop navigation menu */}

@@ -4,10 +4,10 @@ import icon3 from '../assets/icon-3.svg';
 import icon4 from '../assets/icon-4.svg';
 
 export const navItems = [
-  { label: "About Us", href: "#" },
-  { label: "How it works", href: "#"},
-  { label: "Pricing", href: "#" },
-  { label: "FAQs", href: "#" },
+  { label: "About Us", href: "#about-us" },
+  { label: "How it works", href: "#how-it-works"},
+  { label: "Pricing", href: "#pricing" },
+  { label: "FAQs", href: "#faqs" },
 ];
 
 export const aboutList = [
@@ -107,19 +107,18 @@ export const faqAccordion = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#about-us", text: "About Us" },
+  { href: "#how-it-works", text: "How it works" },
+  { href: "#pricing", text: "Pricing" },
+  { href: "#faqs", text: "FAQs" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Lead Generation" },
+  { href: "#", text: "Customer engagement" },
+  { href: "#", text: "Customer support" },
+  { href: "#", text: "Help Center Articles" },
+  { href: "#", text: "Outbound messages" },
 ];
 
 export const communityLinks = [

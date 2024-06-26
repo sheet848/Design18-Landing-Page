@@ -9,7 +9,7 @@ import paypal from '../assets/m_paypall.svg';
 const TopCover = () => {
   return (
     <>
-    <div className='hero-section px-4 md:flex md:flex-row lg:pt-[40px] lg:pb-[60]'>
+    <div className='hero-section px-4 md:flex md:flex-row lg:pt-[40px] lg:pb-[60] w-full mx-auto max-w-[1024px]'>
     <div className='left-content flex-[100%] md:flex-[78%]'>
     <div className='hero-intro'>
         <h1 className='text-5xl tracking-normal md:text-[40px] lg:text-[66px]'>Always Track & Analyze Your Business Statistics To Succeed.</h1>

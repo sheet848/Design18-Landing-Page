@@ -12,9 +12,9 @@ const FAQs = () => {
 
   return (
     <>
-    <div className='how-works px-4 pb-14 md:grid md:grid-cols-2'>
+    <div className='how-works px-4 pb-14 md:grid md:grid-cols-2 w-full mx-auto max-w-[1024px]'>
         <div className="section-1 md:w-[30rem] lg:w-[45rem]">
-            <div className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">FAQS</div>
+            <div id='faqs' className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">FAQS</div>
             <h2 className='text-4xl pt-7 pr-3 lg:text-6xl'>Common Questions.</h2>
             <p className='pt-5 pb-7 lg:w-2/3'>The online form also provides links to a set of frequently asked questions, other information materials related to the financial disclosure programme.</p>
         </div>
@@ -24,7 +24,7 @@ const FAQs = () => {
         <div className="accordion-group lg:-mt-32">
         {faqAccordion.map((acc, index) => (
           <div className="accordion border-b-2 border-black">
-            <div className="title text-xl font-extrabold py-3 md:text-lg" onClick={() => handleSelected(index)}>{acc.title}
+            <div className="title text-xl cursor-pointer font-extrabold py-3 md:text-lg" onClick={() => handleSelected(index)}>{acc.title}
               {
                 (selected === index) ? (
                   <span className='float-right rotate-45'>+</span>)
