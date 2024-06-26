@@ -6,7 +6,7 @@ import art2 from '../assets/Illustration_2.svg';
 const AboutUs = () => {
   return (
     <>
-    <div className="about-us px-4 py-14 md:grid md:grid-cols-2">
+    <div className="about-us px-4 py-14 md:grid md:grid-cols-2 w-full mx-auto max-w-[1024px]">
         <div className="section-1 md:order-2">
             <div id='about-us' className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">About Us</div>
             <h2 className='text-4xl pt-7 lg:text-6xl'>Faster, friendlier feedback loops make life easier.</h2>

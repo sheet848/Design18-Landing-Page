@@ -12,7 +12,7 @@ const FAQs = () => {
 
   return (
     <>
-    <div className='how-works px-4 pb-14 md:grid md:grid-cols-2'>
+    <div className='how-works px-4 pb-14 md:grid md:grid-cols-2 w-full mx-auto max-w-[1024px]'>
         <div className="section-1 md:w-[30rem] lg:w-[45rem]">
             <div id='faqs' className="about-brick border-2 border-black w-[max-content] px-4 py-2 uppercase font-bold text-sm">FAQS</div>
             <h2 className='text-4xl pt-7 pr-3 lg:text-6xl'>Common Questions.</h2>

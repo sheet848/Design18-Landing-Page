@@ -107,19 +107,18 @@ export const faqAccordion = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#about-us", text: "About Us" },
+  { href: "#how-it-works", text: "How it works" },
+  { href: "#pricing", text: "Pricing" },
+  { href: "#faqs", text: "FAQs" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Lead Generation" },
+  { href: "#", text: "Customer engagement" },
+  { href: "#", text: "Customer support" },
+  { href: "#", text: "Help Center Articles" },
+  { href: "#", text: "Outbound messages" },
 ];
 
 export const communityLinks = [
