@@ -10,7 +10,7 @@
 - The landing page has a **workable navigation bar** and a **single selection accordion**
 
 ## Approach
-- All images and content used in this page are extracted from the **constants page** to the React component page.
+- All images and content used in this page are extracted from the **[constants page](https://github.com/sheet848/Design18-Landing-Page/blob/main/src/constant/index.jsx)** to the React component page.
 - Due to this, additional content can be added to the current components without changing the logic used in the JSX.
 - The styling is done via **Tailwind CSS**.
 - **Mobile first CSS** was executed for this page, which on executing found that the page styling time reduced considerably.
