@@ -1,8 +1,16 @@
-# React + Vite
+# Design 18 Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## The Objective
+- This project was created to familiarize myself with **Tailwind CSS** and **React** apply classes for the quick creation of basic UI components.
+- The design was taken from Figma community account **[@workpoturem](https://www.figma.com/@workpoturem)**
+- The design file used : **[Click here](https://www.figma.com/design/0RruyhdHyexaQ2S0LNvNx5/High-Landing-(the18.design)-Free-(Community)?node-id=1214-33134&t=RKp7WRFqpAC15wRW-0)**
 
-Currently, two official plugins are available:
+## Features
+- This is a simple basic Landing page created using React
+- The landing page has a **workable navigation bar** and a **single selection accordion**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Approach
+- All images and content used in this page are extracted from the **constants page** to the React component page.
+- Due to this, additional content can be added to the current components without changing the logic used in the JSX.
+- The styling is done via **Tailwind CSS**.
+- **Mobile first CSS** was executed for this page, which on executing found that the page styling time reduced considerably.
