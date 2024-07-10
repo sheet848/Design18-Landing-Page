@@ -1,5 +1,7 @@
 # Design 18 Landing Page
 
+https://design18-landing-page.vercel.app/
+
 ## The Objective
 - This project was created to familiarize myself with **Tailwind CSS** and **React** apply classes for the quick creation of basic UI components.
 - The design was taken from Figma community account **[@workpoturem](https://www.figma.com/@workpoturem)**
